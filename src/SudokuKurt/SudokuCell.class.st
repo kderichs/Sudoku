@@ -12,6 +12,7 @@ Class {
 { #category : #testing }
 SudokuCell >> hasChosenValue [
 
+	" test comment "
 	^ chosenValue ~= 0
 ]
 
