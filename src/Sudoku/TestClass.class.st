@@ -15,3 +15,15 @@ TestClass >> initialize [
 
 	test := false
 ]
+
+{ #category : #accessing }
+TestClass >> test [
+
+	^ test
+]
+
+{ #category : #accessing }
+TestClass >> test: anObject [
+
+	test := anObject
+]
