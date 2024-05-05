@@ -1,14 +1,15 @@
 Class {
-	#name : #MyClass,
-	#superclass : #Object,
+	#name : 'MyClass',
+	#superclass : 'Object',
 	#instVars : [
 		'var1',
 		'test'
 	],
-	#category : #Sudoku
+	#category : 'Sudoku',
+	#package : 'Sudoku'
 }
 
-{ #category : #initialization }
+{ #category : 'initialization' }
 MyClass >> initialize [ 
 
 	test := TestClass new

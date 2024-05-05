@@ -1,1 +1,1 @@
-Package { #name : #Sudoku }
+Package { #name : 'Sudoku' }
