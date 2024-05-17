@@ -27,5 +27,6 @@ TestClass >> test [
 { #category : 'accessing' }
 TestClass >> test: anObject [
 
+	"test comment"
 	test := anObject
 ]
